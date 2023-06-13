@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.904),rgba(0, 0, 0, 0.74) );
+}
+
+.Main-box{
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    background-color: transparent;
+    box-shadow: 0px 0px 3px 0px rgba(160, 157, 157, 0.459), 0px 0px 7px 9px rgba(99, 96, 96, 0.377);
+    border-radius: 10px ;
+    padding: 20px;
+}
+ 
+input{
+    height: 70px;
+    width: 280px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px 10px 15px 10px;
+    text-align: right;
+    padding: 0px 7px 0px 7px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    border-radius: 100%;
+    font-size: large;
+    height: 45px;
+    width: 45px;
+    margin: 9px;
+    color: aliceblue;
+    background-color: transparent;
+    box-shadow: 2px 2px 3px 2px rgba(10, 10, 10, 0.459), 2px 2px 9px 8px rgba(77, 75, 75, 0.493);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.non-number{
+    color: greenyellow;
+}
+
+#AC{
+    color: rgba(248, 91, 91, 0.911);
+}
+
+#equal{
+    background-color: rgba(47, 180, 47, 0.945);
+    box-shadow: 2px 2px 9px 8px  rgba(94, 91, 91, 0.493);
+}
