@@ -1,2 +1,2 @@
 # projects
-This is a simple biggner level calculator program
+This is a simple beginner level calculator program
